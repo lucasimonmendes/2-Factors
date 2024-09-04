@@ -1,5 +1,9 @@
 # 2-Factors
 
+![Linguagem mais utilizada](https://img.shields.io/github/languages/top/lucasimonmendes/2-Factors)
+![Último commit](https://img.shields.io/github/last-commit/lucasimonmendes/2-Factors)
+![README bem legal](https://img.shields.io/badge/readme-bem_legal-8A2BE2)
+
 ## Descrição
 
 `2-Factors` é um gerador de senhas de autenticação em dois fatores (2FA) que permite adicionar novas chaves de serviço, gerar senhas 2FA com base nessas chaves e listar os serviços disponíveis. O script utiliza GPG para criptografia simétrica e o OATH Toolkit para gerar as senhas 2FA.
