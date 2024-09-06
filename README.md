@@ -41,6 +41,7 @@ sudo pacman -S gpg oathtool
 - `--new` ou `-n`: Adicionar uma nova chave de serviço.
 - `--totp` ou `-t`: Gerar uma senha 2FA para o serviço especificado. A senha é válida por 30 segundos.
 - `--list` ou `-l`: Listar os serviços disponíveis.
+- `--remove` ou `-r`: Remove o serviço especificado.
 
 ### Exemplos
 
@@ -66,6 +67,12 @@ sudo pacman -S gpg oathtool
    ./2-Factors.sh --list
    ```
 
+4. **Remover um serviço:**
+
+   ```bash
+   ./2-Factors.sh --remove <nome_do_servico>
+   ```
+
 ## Licença
 
 Este projeto é licenciado sob a licença GPLv2.
@@ -79,3 +86,5 @@ Este projeto é licenciado sob a licença GPLv2.
 
 - **04/09/2024** - Versão 1.0
   - Adicionadas as funções `newKey`, `list` e `generate` para gerenciar chaves e gerar senhas 2FA.
+- **06/09/2024** - Versão 2.0
+  - Adicionada a funcao `removeService` para remover serviços.
